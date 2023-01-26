@@ -15,3 +15,5 @@ ul.append(li) //Places a list element in the ul tag
 const firstListItem = document.querySelector('.list-items');
 
 li.innerText = 'E: Volts' //This actually puts text onto the list append above
+
+li.classList.add('list-items');
